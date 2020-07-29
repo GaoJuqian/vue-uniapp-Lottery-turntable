@@ -1,5 +1,5 @@
 # vue-uniapp-Lottery-turntable
-vue uni-app 抽奖转盘 抽奖
+vue uni-app uniapp 抽奖转盘 抽奖
 
 H5 [预览地址](https://www.gaojuqian.com/github/demo1_ZhuanPan/ "抽奖转盘"). 
 
