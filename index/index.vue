@@ -24,14 +24,14 @@
 							{{resCJData_item.name}}
 						<!-- 内容标题 -->
 						<!-- 内容图片 -->
-							<image :src="resCJData_item.image" style="width: 40px;height: 40px;"></image>
+							<image :src="resCJData_item.image" style="width: 36px;height: 40px;"></image>
 						<!-- 内容图片 -->
 					</view>
 					<!-- item -->
 				</view>
 				<!-- 转盘旋转盒子 -->
 				<!-- 点击按钮 -->
-					<image @click="cjReq()" src="../../static/star.png" style="width: 64px;height: 72px;position: absolute;top: 104px;"></image>
+					<image @click="cjReq()" src="../../static/star.png" style="width: 64px;height: 72px;position: absolute;top: 108px;"></image>
 				<!-- 点击按钮 -->
 			</view>
 			
@@ -69,33 +69,33 @@
 				this.resCJData = [
 					{
 						id: "1",
-						name: "宝箱1",
-						image: "../../static/indexz.png",
+						name: "宝箱1宝箱1宝箱1宝箱1",
+						image: "../../static/golang.png",
 					},
 					{
 						id: "1",
-						name: "宝箱2",
-						image: "../../static/indexz.png",
+						name: "宝箱2宝箱2宝箱2",
+						image: "../../static/golang.png",
 					},
 					{
 						id: "1",
-						name: "宝箱3",
-						image: "../../static/indexz.png",
+						name: "宝箱3宝箱3宝箱3",
+						image: "../../static/golang.png",
 					},
 					{
 						id: "1",
-						name: "宝箱4",
-						image: "../../static/indexz.png",
+						name: "宝箱4宝箱4宝箱4宝箱4",
+						image: "../../static/golang.png",
 					},
 					{
 						id: "1",
-						name: "宝箱5",
-						image: "../../static/indexz.png",
+						name: "宝箱5宝箱5宝箱5",
+						image: "../../static/golang.png",
 					},
 					{
 						id: "1",
-						name: "宝箱6",
-						image: "../../static/indexz.png",
+						name: "宝箱6宝箱6宝箱6宝箱6",
+						image: "../../static/golang.png",
 					},
 				]
 			},
@@ -159,6 +159,7 @@
 		width: 300px;
 		height: 300px;
 		position: relative;
+		border-radius: 1000px;
 	}
 	// 由于-webkit-选择了绑定class，微信小程序可以选择绑定style ( :style="{'animation-name' : 'cjstar' + cjName }" )
 	.cjstar1{
@@ -211,42 +212,42 @@
 	// 内容定位
 	.cj-item0 {
 		position: absolute;
-		top: 35px;
-		left: 110px;
+		top: 33px;
+		    left: 109px;
 	}
 
 	.cj-item1 {
 		position: absolute;
-		top: 70px;
-		right: 45px;
+		top: 69px;
+		    right: 47px;
 		transform: rotate(60deg);
 	}
 
 	.cj-item2 {
 		position: absolute;
-		top: 140px;
-		right: 50px;
+		    top: 143px;
+		    right: 47px;
 		transform: rotate(120deg);
 	}
 
 	.cj-item3 {
 		position: absolute;
-		top: 180px;
+		top: 186px;
 		right: 111px;
 		transform: rotate(180deg);
 	}
 
 	.cj-item4 {
 		position: absolute;
-		top: 143px;
-		left: 42px;
+		    top: 142px;
+		    left: 45px;
 		transform: rotate(240deg);
 	}
 
 	.cj-item5 {
 		position: absolute;
-		top: 76px;
-		left: 49px;
+		    top: 69px;
+		    left: 46px;
 		transform: rotate(300deg);
 	}
 	// 内容动画
